@@ -20,6 +20,8 @@ void push(struct node** headref,int data)
         n->next->prev=n;
         *headref=n;
 }
+
+// now I have added few morething to see changes on git
 void print(struct node *headref)
 {
 struct node* temp;
